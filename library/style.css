@@ -113,12 +113,24 @@ h1 {
     align-items: center;
 }
 
+#fic {
+    width: 16px;
+    height: 16px;
+    background-color:#BB945F;
+    margin: 40px 0 40px 10px;
+    border-radius: 50%;
+}
+
 .carousel-item {
     width: 16px;
     height: 16px;
-    background-color: #BB945F;
+    background-color:#0C0C0E;
     margin: 40px 0 40px 10px;
     border-radius: 50%;
+}
+
+.carousel-item:hover {
+    cursor: pointer;
 }
 
 .favorites {
@@ -191,6 +203,10 @@ footer {
 
 .footer-item {
     margin-right: 15px;
+}
+
+.footer-item:hover {
+    cursor: pointer;
 }
 
 .line2 {
