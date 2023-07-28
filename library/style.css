@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    top: 0;
+    bottom: 90px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 1440px;
+    background-color: #8E8E8E;
+}
+
+h1 {
+    margin: 20px;
+    color: #FFF;
+    font-family: Forum;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 166.667% */
+    letter-spacing: 0.6px;
+}
+
+.nav-list {
+    display: flex;
+    margin: 20px 88px 20px 0px;
+   
+}
+
+.nav-items {
+    margin-left: 30px;
+}
+
+.nav-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 250% */
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: #BB945F;
+}
+
+.profile {
+    position: absolute;
+    cursor: pointer;
+    margin: 0 0 0 1390px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.line {
+    position: relative;
+    margin: 20px 695px 0 695px;
+    display: flex;
+    width: 50px;
+    height: 1px;
+    background-color:#0C0C0E;
+}
+
+.libtext {
+    color: #000;
+    margin: 40px 0 20px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+}
+
+.images-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.carousel-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fic {
+    width: 16px;
+    height: 16px;
+    background-color:#BB945F;
+    margin: 40px 0 40px 10px;
+    border-radius: 50%;
+}
+
+.carousel-item {
+    width: 16px;
+    height: 16px;
+    background-color:#0C0C0E;
+    margin: 40px 0 40px 10px;
+    border-radius: 50%;
+}
+
+.carousel-item:hover {
+    cursor: pointer;
+}
+
+.favorites {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    color: #0C0C0E;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.pick {
+    display: flex;
+    justify-content: flex-start;
+    margin: 40px 0 0 20px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+footer {
+    background-color:#0C0C0E;
+
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item1 {
+    color: #FFFFFF;
+    width: 229px;
+    height: 40px;
+    margin: 20px 0 0 20px;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.footer-item2 {
+    width: 149px;
+    height: 40px;
+    margin: 20px 20px 0 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.footer-nav2 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 18px 0 0 21px;
+}
+
+.footer-item {
+    margin-right: 15px;
+}
+
+.footer-item:hover {
+    cursor: pointer;
+}
+
+.line2 {
+    display: flex;
+    margin: 30px 0 0 20px;
+    width: 1400px;
+    height: 1px;
+    background-color:#FFF;
+}
+
+.footer-items {
+    color:#FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+}
+
+.wrap {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 1400px;
+}
+
+.footer-nav3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 44px 0 44px 0;
+}
+
+
+
+
+
+
