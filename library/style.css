@@ -22,6 +22,7 @@ header {
     justify-content: space-between;
     margin: auto;
     width: 1440px;
+    background-color: #8E8E8E;
 }
 
 h1 {
@@ -145,8 +146,87 @@ h1 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+footer {
+    background-color:#0C0C0E;
 
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item1 {
+    color: #FFFFFF;
+    width: 229px;
+    height: 40px;
+    margin: 20px 0 0 20px;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.footer-item2 {
+    width: 149px;
+    height: 40px;
+    margin: 20px 20px 0 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.footer-nav2 {
+    display: flex;
+    justify-content: flex-start;
+    margin: 18px 0 0 21px;
+}
+
+.footer-item {
+    margin-right: 15px;
+}
+
+.line2 {
+    display: flex;
+    margin: 30px 0 0 20px;
+    width: 1400px;
+    height: 1px;
+    background-color:#FFF;
+}
+
+.footer-items {
+    color:#FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+}
+
+.wrap {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    width: 1400px;
+}
+
+.footer-nav3 {
+    display: flex;
+    justify-content: space-between;
+    margin: 44px 0 44px 0;
+}
+
+
 
 
 
